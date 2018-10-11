@@ -1,0 +1,15 @@
+mysql:
+  local: "WRITE DB URI"
+  dev: "WRITE DB URI"
+  prod: "WRITE DB URI"
+
+doubleclick:
+  client_id: "DOUBLE CLICK CLIENT ID"
+  client_secret: "DOUBLE CLICK CLIENT SECRET ID"
+  refresh_token: "REFLESH TOKEN"
+  access_token: ""
+
+user:
+  profileId: "USER ID" 
+  reportId: ""
+

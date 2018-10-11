@@ -1,0 +1,37 @@
+{
+  "name": "doubleclick",
+  "version": "1.0.0",
+  "description": "Doubleclick api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/* && ./node_modules/.bin/babel src/ -d dist/ --source-maps inline",
+    "start": "env 'NODE_ENV=local' node --require babel-register src/app.js"
+  },
+  "author": "Murat Deniz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-eslint": "^8.2.6",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "csvtojson": "^2.0.6",
+    "delay": "^3.0.0",
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "fs": "0.0.1-security",
+    "js-yaml": "^3.12.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
